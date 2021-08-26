@@ -1,0 +1,637 @@
+Variable Name,Variable Description,Data File Name,Data File Description,Component,Use Constraints
+SEQN,Respondent sequence number.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+SDDSRVYR,Data release cycle,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIDSTATR,Interview and examination status of the participant.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIAGENDR,Gender of the participant.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIDAGEYR,Age in years of the participant at the time of screening. Individuals 80 and over are topcoded at 80 years of age.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIDAGEMN,Age in months of the participant at the time of screening. Reported for persons aged 24 months or younger at the time of exam (or screening if not examined).,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIDRETH1,Recode of reported race and Hispanic origin information,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIDRETH3,"Recode of reported race and Hispanic origin information, with Non-Hispanic Asian Category",DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIDEXMON,"Six month time period when the examination was performed - two categories: November 1 through April 30, May 1 through October 31.",DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIDEXAGM,Age in months of the participant at the time of examination. Reported for persons aged 19 years or younger at the time of examination.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMQMILIZ,"{Have you/Has SP} ever served on active duty in the U.S. Armed Forces, military Reserves, or National Guard? (Active duty does not include training for the Reserves or National Guard, but does include activation, for service in the U.S. or in a foreign country, in support of military or humanitarian operations.)",DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMQADFC,"Did {you/SP} ever serve in a foreign country during a time of armed conflict or on a humanitarian or peace-keeping mission? (This would include National Guard or reserve or active duty monitoring or conducting peace keeping operations in Bosnia and Kosovo, in the Sinai between Egypt and Israel, or in response to the 2004 tsunami or Haiti in 2010.)",DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDBORN4,In what country {were you/was SP} born?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDCITZN,{Are you/Is SP} a citizen of the United States? [Information about citizenship is being collected by the U.S. Public Health Service to perform health related research. Providing this information is voluntary and is collected under the authority of the Public Health Service Act. There will be no effect on pending immigration or citizenship petitions.],DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDYRSUS,Length of time the participant has been in the US.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDEDUC3,What is the highest grade or level of school {you have/SP has} completed or the highest degree {you have/s/he has} received?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDEDUC2,What is the highest grade or level of school {you have/SP has} completed or the highest degree {you have/s/he has} received?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDMARTL,Marital status,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+RIDEXPRG,Pregnancy status for females between 20 and 44 years of age at the time of MEC exam.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+SIALANG,Language of the Sample Person Interview Instrument,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+SIAPROXY,Was a Proxy respondent used in conducting the Sample Person (SP) interview?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+SIAINTRP,Was an interpreter used to conduct the Sample Person (SP) interview?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+FIALANG,Language of the Family Interview Instrument,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+FIAPROXY,Was a Proxy respondent used in conducting the Family Interview?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+FIAINTRP,Was an interpreter used to conduct the Family interview?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+MIALANG,Language of the MEC CAPI Interview Instrument,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+MIAPROXY,Was a Proxy respondent used in conducting the MEC CAPI Interview?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+MIAINTRP,Was an interpreter used to conduct the MEC CAPI interview?,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+AIALANGA,Language of the MEC ACASI Interview Instrument,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHHSIZ,Total number of people in the Household,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDFMSIZ,Total number of people in the Family,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHHSZA,Number of children aged 5 years or younger in the household,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHHSZB,Number of children aged 6-17 years old in the household,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHHSZE,Number of adults aged 60 years or older in the household,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHRGND,HH reference person's gender,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHRAGE,HH reference person's age in years,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHRBR4,HH reference person's country of birth,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHREDU,HH reference person's education level,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHRMAR,HH reference person's marital status,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+DMDHSEDU,HH reference person's spouse's education level,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+WTINT2YR,Full sample 2 year interview weight.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+WTMEC2YR,Full sample 2 year MEC exam weight.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+SDMVPSU,Masked variance unit pseudo-PSU variable for variance estimation,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+SDMVSTRA,Masked variance unit pseudo-stratum variable for variance estimation,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+INDHHIN2,Total household income (reported as a range value in dollars),DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+INDFMIN2,Total family income (reported as a range value in dollars),DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+INDFMPIR,A ratio of family income to poverty guidelines.,DEMO_H,Demographic Variables and Sample Weights,Demographics,None
+WTDRD1,Dietary day one sample weight,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+WTDR2D,Dietary two-day sample weight,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1DRSTZ,Dietary recall status,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1EXMER,Interviewer ID code,DS1TOT_H,"Dietary Supplement Use 24-Hour - Total Dietary Supplements, First Day",Dietary,None
+DRABF,Indicates whether the sample person was an infant who was breast-fed on either of the two recall days.,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRDINT,Indicates whether the sample person has intake data for one or two days.,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1DBIH,Number of days between intake day and the day of family questionnaire administered in the household.,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1DAY,Intake day of the week,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1LANG,The respondent spoke mostly:,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1MNRSP,Who was the main respondent for this interview?,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1HELPD,Who helped in responding for this interview,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DBQ095Z,What type of salt {do you/does SP} usually add to {your/his/her/SP's} food at the table? Would you say . . .,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DBD100,How often {do you/does SP} add ordinary salt to {your/his/her/SP's} food at the table? Would you say . . .,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSPREP,"How often is ordinary salt or seasoned salt added in cooking or preparing foods in your household? Is it never, rarely, occasionally, or very often?",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1STY,"Did {you/SP} add any salt to {your/her/his} food at the table yesterday? Salt includes ordinary or seasoned salt, lite salt, or a salt substitute.",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1SKY,"What type of salt was it? (Was it ordinary or seasoned salt, lite salt, or a salt substitute?)",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDIET,"Are you currently on any kind of diet, either to lose weight or for some other health-related reason?",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT1,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT2,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT3,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT4,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT5,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT6,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT7,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT8,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT9,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT10,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT11,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT12,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRQSDT91,What kind of diet are you on? (Is it a weight loss or low calorie diet: low fat or cholesterol diet; low salt or sodium diet; sugar free or low sugar diet; low fiber diet; high fiber diet; diabetic diet; or another type of diet?),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TNUMF,Total number of foods/beverages reported in the individual foods file,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TKCAL,Energy (kcal),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TPROT,Protein (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCARB,Carbohydrate (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TSUGR,Total sugars (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFIBE,Dietary fiber (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TTFAT,Total fat (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TSFAT,Total saturated fatty acids (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TMFAT,Total monounsaturated fatty acids (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TPFAT,Total polyunsaturated fatty acids (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCHOL,Cholesterol (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TATOC,Vitamin E as alpha-tocopherol (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TATOA,Added alpha-tocopherol (Vitamin E) (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TRET,Retinol (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVARA,Vitamin A as retinol activity equivalents (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TACAR,Alpha-carotene (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TBCAR,Beta-carotene (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCRYP,Beta-cryptoxanthin (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TLYCO,Lycopene (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TLZ,Lutein + zeaxanthin (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVB1,Thiamin (Vitamin B1) (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVB2,Riboflavin (Vitamin B2) (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TNIAC,Niacin (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVB6,Vitamin B6 (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFOLA,Total folate (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFA,Folic acid (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFF,Food folate (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFDFE,Folate as dietary folate equivalents (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCHL,Total choline (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVB12,Vitamin B12 (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TB12A,Added vitamin B12 (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVC,Vitamin C (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVD,Vitamin D (D2 + D3) (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVK,Vitamin K (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCALC,Calcium (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TPHOS,Phosphorus (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TMAGN,Magnesium (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TIRON,Iron (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TZINC,Zinc (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCOPP,Copper (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TSODI,Sodium (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TPOTA,Potassium (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TSELE,Selenium (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCAFF,Caffeine (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TTHEO,Theobromine (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TALCO,Alcohol (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TMOIS,Moisture (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS040,SFA 4:0 (Butanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS060,SFA 6:0 (Hexanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS080,SFA 8:0 (Octanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS100,SFA 10:0 (Decanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS120,SFA 12:0 (Dodecanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS140,SFA 14:0 (Tetradecanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS160,SFA 16:0 (Hexadecanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS180,SFA 18:0 (Octadecanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TM161,MFA 16:1 (Hexadecenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TM181,MFA 18:1 (Octadecenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TM201,MFA 20:1 (Eicosenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TM221,MFA 22:1 (Docosenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP182,PFA 18:2 (Octadecadienoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP183,PFA 18:3 (Octadecatrienoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP184,PFA 18:4 (Octadecatetraenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP204,PFA 20:4 (Eicosatetraenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP205,PFA 20:5 (Eicosapentaenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP225,PFA 22:5 (Docosapentaenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP226,PFA 22:6 (Docosahexaenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1.300,"Was the amount of food that {you/NAME} ate yesterday much more than usual, usual, or much less than usual?",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1.320Z,"Total plain water drank yesterday - including plain tap water, water from a drinking fountain, water from a water cooler, bottled water, and spring water.",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1.330Z,Total tap water drank yesterday - including filtered tap water and water from a drinking fountain.,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1BWATZ,Total bottled water drank yesterday (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TWS,"When you drink tap water, what is the main source of the tap water? Is the city water supply (community water supply); a well or rain cistern; a spring; or something else?",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD340,"Please look at this list of shellfish. During the past 30 days did you eat any types of shellfish listed on this card? Include any foods that had shellfish in them such as sandwiches, soups, or salads.",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350A,Clams eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350AQ,Number of times clams were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350B,Crabs eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350BQ,Number of times crab was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350C,Crayfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350CQ,Number of times crayfish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350D,Lobsters eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350DQ,Number of times lobster was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350E,Mussels eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350EQ,Number of times mussels were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350F,Oysters eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350FQ,Number of times oysters were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350G,Scallops eaten during the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350GQ,Number of times scallops were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350H,Shrimp eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350HQ,Number of times shrimp was eaten in the last 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350I,"Other shellfish ( ex. octopus, squid) eaten during past 30 days",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350IQ,"Number of times other shellfish (ex. octopus, squid) was eaten in the past 30 days",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350J,Other unknown shellfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350JQ,Number of times other unknown shellfish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350K,Refused to give detailed information on shellfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD360,"Please look at this list of fish. During the past 30 days did you eat any types of fish listed on this card? Include any foods that had fish in them such as sandwiches, soups, or salads.",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370A,Breaded fish products eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370AQ,Number of times breaded fish products were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370B,Tuna eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370BQ,Number of times tuna was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370C,Bass eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370CQ,Number of times bass was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370D,Catfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370DQ,Number of times catfish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TBCAR,Beta-carotene (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCRYP,Beta-cryptoxanthin (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TLYCO,Lycopene (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TLZ,Lutein + zeaxanthin (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVB1,Thiamin (Vitamin B1) (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVB2,Riboflavin (Vitamin B2) (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TNIAC,Niacin (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVB6,Vitamin B6 (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFOLA,Total folate (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFA,Folic acid (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFF,Food folate (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TFDFE,Folate as dietary folate equivalents (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCHL,Total choline (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVB12,Vitamin B12 (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TB12A,Added vitamin B12 (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVC,Vitamin C (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVD,Vitamin D (D2 + D3) (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TVK,Vitamin K (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCALC,Calcium (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TPHOS,Phosphorus (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TMAGN,Magnesium (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TIRON,Iron (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TZINC,Zinc (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCOPP,Copper (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TSODI,Sodium (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TPOTA,Potassium (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TSELE,Selenium (mcg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TCAFF,Caffeine (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TTHEO,Theobromine (mg),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TALCO,Alcohol (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TMOIS,Moisture (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS040,SFA 4:0 (Butanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS060,SFA 6:0 (Hexanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS080,SFA 8:0 (Octanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS100,SFA 10:0 (Decanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS120,SFA 12:0 (Dodecanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS140,SFA 14:0 (Tetradecanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS160,SFA 16:0 (Hexadecanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TS180,SFA 18:0 (Octadecanoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TM161,MFA 16:1 (Hexadecenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TM181,MFA 18:1 (Octadecenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TM201,MFA 20:1 (Eicosenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TM221,MFA 22:1 (Docosenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP182,PFA 18:2 (Octadecadienoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP183,PFA 18:3 (Octadecatrienoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP184,PFA 18:4 (Octadecatetraenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP204,PFA 20:4 (Eicosatetraenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP205,PFA 20:5 (Eicosapentaenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP225,PFA 22:5 (Docosapentaenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TP226,PFA 22:6 (Docosahexaenoic) (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1.300,"Was the amount of food that {you/NAME} ate yesterday much more than usual, usual, or much less than usual?",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1.320Z,"Total plain water drank yesterday - including plain tap water, water from a drinking fountain, water from a water cooler, bottled water, and spring water.",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1.330Z,Total tap water drank yesterday - including filtered tap water and water from a drinking fountain.,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1BWATZ,Total bottled water drank yesterday (gm),DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DR1TWS,"When you drink tap water, what is the main source of the tap water? Is the city water supply (community water supply); a well or rain cistern; a spring; or something else?",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD340,"Please look at this list of shellfish. During the past 30 days did you eat any types of shellfish listed on this card? Include any foods that had shellfish in them such as sandwiches, soups, or salads.",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350A,Clams eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350AQ,Number of times clams were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350B,Crabs eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350BQ,Number of times crab was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350C,Crayfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350CQ,Number of times crayfish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350D,Lobsters eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350DQ,Number of times lobster was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350E,Mussels eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350EQ,Number of times mussels were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350F,Oysters eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350FQ,Number of times oysters were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350G,Scallops eaten during the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350GQ,Number of times scallops were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350H,Shrimp eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350HQ,Number of times shrimp was eaten in the last 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350I,"Other shellfish ( ex. octopus, squid) eaten during past 30 days",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350IQ,"Number of times other shellfish (ex. octopus, squid) was eaten in the past 30 days",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350J,Other unknown shellfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350JQ,Number of times other unknown shellfish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD350K,Refused to give detailed information on shellfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD360,"Please look at this list of fish. During the past 30 days did you eat any types of fish listed on this card? Include any foods that had fish in them such as sandwiches, soups, or salads.",DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370A,Breaded fish products eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370AQ,Number of times breaded fish products were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370B,Tuna eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370BQ,Number of times tuna was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370C,Bass eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370CQ,Number of times bass was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370D,Catfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370DQ,Number of times catfish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370E,Cod eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370EQ,Number of times cod was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370F,Flatfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370FQ,Number of times flatfish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370G,Haddock eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370GQ,Number of times haddock was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370H,Mackerel eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370HQ,Number of times mackerel was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370I,Perch eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370IQ,Number of times perch was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370J,Pike eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370JQ,Number of times pike was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370K,Pollock eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370KQ,Number of times pollock was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370L,Porgy eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370LQ,Number of times porgy was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370M,Salmon eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370MQ,Number of times salmon was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370N,Sardines eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370NQ,Number of times sardines were eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370O,Sea bass eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370OQ,Number of times sea bass was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370P,Shark eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370PQ,Number of times shark was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370Q,Swordfish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370QQ,Number of times swordfish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370R,Trout eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370RQ,Number of times trout was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370S,Walleye eaten during the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370SQ,Number of times walleye was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370T,Other type of fish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370TQ,Number of times other type of fish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370U,Other unknown type eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370UQ,Number of times other unknown type of fish was eaten in the past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+DRD370V,Refused to give detailed information on fish eaten during past 30 days,DR1TOT_H,"Dietary Interview - Total Nutrient Intakes, First Day",Dietary,None
+URXUMA,"Albumin, urine (ug/mL)",ALB_CR_H,Albumin & Creatinine - Urine,Laboratory,None
+URXUMS,"Albumin, urine (mg/L)",ALB_CR_H,Albumin & Creatinine - Urine,Laboratory,None
+URXCRS,"Creatinine, urine (umol/L)",ALB_CR_H,Albumin & Creatinine - Urine,Laboratory,None
+URDACT,Albumin creatinine ratio (mg/g),ALB_CR_H,Albumin & Creatinine - Urine,Laboratory,None
+LBXAPB,Apolipoprotein (B) (mg/dL),ApoB_H,Apolipoprotein B,Laboratory,None
+LBDAPBSI,Apolipoprotein (B) (g/L),ApoB_H,Apolipoprotein B,Laboratory,None
+LBXSAL,Albumin (g/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSALSI,Albumin (g/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSAPSI,Alkaline phosphatase (IU/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSASSI,Aspartate aminotransferase AST (IU/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSATSI,Alanine aminotransferase ALT (IU/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSBU,Blood urea nitrogen (mg/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSBUSI,Blood urea nitrogen (mmol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSC3SI,Bicarbonate (mmol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSCA,Total calcium (mg/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSCASI,Total calcium (mmol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSCH,Cholesterol (mg/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSCHSI,Cholesterol (mmol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSCK,Creatine Phosphokinase(CPK) (IU/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSCLSI,Chloride (mmol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSCR,Creatinine (mg/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSCRSI,Creatinine (umol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSGB,Globulin (g/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSGBSI,Globulin (g/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSGL,"Glucose, refrigerated serum (mg/dL)",BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSGLSI,"Glucose, refrigerated serum (mmol/L)",BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSGTSI,Gamma glutamyl transferase (U/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSIR,"Iron, refrigerated serum (ug/dL)",BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSIRSI,"Iron, refrigerated serum (umol/L)",BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSKSI,Potassium (mmol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSLDSI,Lactate dehydrogenase (U/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSNASI,Sodium (mmol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSOSSI,Osmolality (mmol/Kg),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSPH,Phosphorus (mg/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSPHSI,Phosphorus (mmol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSTB,Total bilirubin (mg/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSTBSI,Total bilirubin (umol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSTP,Total protein (g/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSTPSI,Total protein (g/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSTR,"Triglycerides, refrigerated (mg/dL)",BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSTRSI,"Triglycerides, refrigerated (mmol/L)",BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXSUA,Uric acid (mg/dL),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBDSUASI,Uric acid (umol/L),BIOPRO_H,Standard Biochemistry Profile,Laboratory,None
+LBXWBCSI,White blood cell count (1000 cells/uL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXLYPCT,Lymphocyte percent (%),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXMOPCT,Monocyte percent (%),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXNEPCT,Segmented neutrophils percent (%),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXEOPCT,Eosinophils percent (%),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXBAPCT,Basophils percent (%),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBDLYMNO,Lymphocyte number (1000 cells/uL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBDMONO,Monocyte number (1000 cells/uL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBDNENO,Segmented neutrophils num (1000 cell/uL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBDEONO,Eosinophils number (1000 cells/uL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBDBANO,Basophils number (1000 cells/uL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXRBCSI,Red blood cell count (million cells/uL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXHGB,Hemoglobin (g/dL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXHCT,Hematocrit (%),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXMCVSI,Mean cell volume (fL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXMCHSI,Mean cell hemoglobin (pg),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXMC,Mean cell hemoglobin concentration (g/dL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXRDW,Red cell distribution width (%),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXPLTSI,Platelet count (1000 cells/uL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+LBXMPSI,Mean platelet volume (fL),CBC_H,Complete Blood Count with 5-part Differential - Whole Blood,Laboratory,None
+URXUCL,"Chlamydia, urine",CHLMDA_H,Chlamydia - Urine,Laboratory,None
+LBXSCU,Serum Copper (ug/dL),CUSEZN_H,"Copper, Selenium & Zinc - Serum",Laboratory,None
+LBDSCUSI,Serum Copper (umol/L),CUSEZN_H,"Copper, Selenium & Zinc - Serum",Laboratory,None
+LBXSSE,Serum Selenium (ug/L),CUSEZN_H,"Copper, Selenium & Zinc - Serum",Laboratory,None
+LBDSSESI,Serum Selenium (umol/L),CUSEZN_H,"Copper, Selenium & Zinc - Serum",Laboratory,None
+LBXSZN,Serum Zinc (ug/dL),CUSEZN_H,"Copper, Selenium & Zinc - Serum",Laboratory,None
+LBDSZNSI,Serum Zinc (umol/L),CUSEZN_H,"Copper, Selenium & Zinc - Serum",Laboratory,None
+URXBP3,Urinary 2-Hydroxy-4-metoxybenzophenone (Benzophenone-3),EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDBP3LC,Urinary 2-Hydroxy-4-metoxybenzophenone (Benzophenone-3) comment code,EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXBPH,Urinary Bisphenol A (ng/mL),EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDBPHLC,Urinary Bisphenol A comment,EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXBPF,"Urinary 4,4' dihydroxydiphenylmethane",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDBPFLC,"Urinary 4,4' dihydroxydiphenylmethane comment code",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXBPS,"Urinary 4,4'sulfonyldiphenol",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDBPSLC,"Urinary 4,4' sulfonyldiphenol comment code",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXTLC,Urinary Triclocarban (ng/mL),EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDTLCLC,Urinary Triclocarban comment,EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXTRS,"Urinary 2,4,4'-Trichloro-2'-hydroxyphenyl ether (Triclosan)",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDTRSLC,"Urinary 2,4,4'-Trichloro-2'-hydroxyphenyl ether (Triclosan) comment code",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXBUP,Butyl paraben (ng/ml),EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDBUPLC,Butyl paraben comment,EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXEPB,Ethyl paraben (ng/ml),EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDEPBLC,Ethyl paraben comment,EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXMPB,Methyl paraben (ng/ml),EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDMPBLC,Methyl paraben comment,EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXPPB,Propyl paraben (ng/ml),EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDPPBLC,Propyl paraben comment,EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URX14D,"2,5-dichlorophenol (ug/L)",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URD14DLC,"2,5-dichlorophenol comment",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXDCB,"2,4-dichlorophenol (ug/L)",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URDDCBLC,"2,4-dichlorophenol comment",EPHPP_H,Personal Care and Consumer Product Chemicals and Metabolites,Laboratory,None
+URXUCR,Urinary creatinine (mg/dL),CUSEZN_H,"Copper, Selenium & Zinc - Serum",Laboratory,None
+PHQ020,Coffee or tea with cream or sugar? [Include milk or non-dairy creamers.],FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHACOFHR,The time (in hours) since the examinee last drank coffee or tea with cream or sugar.,FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHACOFMN,The time (in minutes) since the examinee last drank coffee or tea with cream or sugar.,FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHQ030,"Alcohol, such as beer, wine, or liquor?",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHAALCHR,"The time (in hours) the examinee last drank alcohol such as beer, wine, or liquor.",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHAALCMN,"The time (in minutes) the examinee last drank alcohol such as beer, wine, or liquor.",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHQ040,"Gum, breath mints, lozenges or cough drops, or other cough or cold remedies?",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHAGUMHR,"The time (in hours) the examinee last had gum, breath mints, lozenges or cough drops, or other cough or cold remedies.",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHAGUMMN,"The time (in minutes) the examinee last had gum, breath mints, lozenges or cough drops, or other cough or cold remedies.",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHQ050,"Antacids, laxatives, or anti-diarrheals?",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHAANTHR,"The time (in hours) the examinee last had antacids, laxatives or anti-diarrheals.",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHAANTMN,"The time (in minutes) the examinee last had antacids, laxatives or anti-diarrheals.",FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHQ060,Dietary supplements such as vitamins and minerals? [Include multivitamins and single nutrient supplements.],FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHASUPHR,The time (in hours) the examinee last had dietary supplements such as vitamins and minerals.,FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHASUPMN,The time (in minutes) the examinee last had dietary supplements such as vitamins and minerals.,FASTQX_H,Fasting Questionnaire,Laboratory,None
+PHDSESN,Session in which SP was examined,FASTQX_H,Fasting Questionnaire,Laboratory,None
+LBDPFL,"Fluoride, plasma (umol/L) average 2 values",FLDEP_H,Fluoride - Plasma,Laboratory,None
+LBDWFL,"Fluoride, water (mg/L) average 2 values",FLDEW_H,Fluoride - Water,Laboratory,None
+LBDHDD,Direct HDL-Cholesterol (mg/dL),HDL_H,Cholesterol - HDL,Laboratory,None
+LBDHDDSI,Direct HDL-Cholesterol (mmol/L),HDL_H,Cholesterol - HDL,Laboratory,None
+LBXHA,Hepatitis A antibody,HEPA_H,Hepatitis A,Laboratory,None
+LBXHBS,Hepatitis B Surface Antibody,HEPB_S_H,Hepatitis B: Surface Antibody,Laboratory,None
+LBXHBC,Hepatitis B core antibody,HEPBD_H,"Hepatitis B: core antibody, surface antigen, and Hepatitis D antibody",Laboratory,None
+LBDHBG,Hepatitis B surface antigen,HEPBD_H,"Hepatitis B: core antibody, surface antigen, and Hepatitis D antibody",Laboratory,None
+LBDHD,Hepatitis D (anti-HDV),HEPBD_H,"Hepatitis B: core antibody, surface antigen, and Hepatitis D antibody",Laboratory,None
+LBXHCR,Hepatitis C RNA (HCV-RNA),HEPC_H,Hepatitis C: RNA (HCV-RNA) and Hepatitis C Genotype,Laboratory,None
+LBXHCG,Hepatitis C genotype,HEPC_H,Hepatitis C: RNA (HCV-RNA) and Hepatitis C Genotype,Laboratory,None
+LBDHEG,Hepatitis E IgG (anti-HEV),HEPE_H,Hepatitis E: IgG & IgM Antibodies,Laboratory,None
+LBDHEM,Hepatitis E IgM (anti-HEV),HEPE_H,Hepatitis E: IgG & IgM Antibodies,Laboratory,None
+LBXHE1,Herpes Simplex Virus Type 1,HSV_H,Herpes Simplex Virus Type-1 & Type-2,Laboratory,None
+LBXHE2,Herpes Simplex Virus Type 2,HSV_H,Herpes Simplex Virus Type-1 & Type-2,Laboratory,None
+LBXGH,Glycohemoglobin (%),GHB_H,Glycohemoglobin,Laboratory,None
+LBDHI,HIV antibody test result,HIV_H,HIV Antibody Test,Laboratory,None
+ORXGH,HPV High Globulin Band result,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXGL,HPV Low Globulin Band result,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH06,HPV Type 6,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH11,HPV Type 11,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH16,HPV Type 16,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH18,HPV Type 18,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH26,HPV Type 26,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH31,HPV Type 31,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH33,HPV Type 33,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH35,HPV Type 35,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH39,HPV Type 39,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH40,HPV Type 40,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH42,HPV Type 42,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH45,HPV Type 45,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH51,HPV Type 51,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH52,HPV Type 52,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH53,HPV Type 53,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH54,HPV Type 54,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH55,HPV Type 55,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH56,HPV Type 56,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH58,HPV Type 58,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH59,HPV Type 59,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH61,HPV Type 61,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH62,HPV Type 62,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH64,HPV Type 64,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH66,HPV Type 66,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH67,HPV Type 67,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH68,HPV Type 68,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH69,HPV Type 69,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH70,HPV Type 70,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH71,HPV Type 71,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH72,HPV Type 72,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH73,HPV Type 73,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH81,HPV Type 81,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH82,HPV Type 82,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH83,HPV Type 83,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXH84,HPV Type 84,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXHPC,HPV CP 6108,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXHPI,HPV Type IS39,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+ORXHPV,Oral HPV Result,ORHPV_H,Human Papillomavirus (HPV) - Oral Rinse,Laboratory,None
+LBXHP2C,Cobas HPV Swab High Risk,HPVSWR_H,Human Papillomavirus (HPV) DNA - Vaginal Swab: Roche Cobas & Roche Linear Array,Laboratory,None
+LBXIN,Insulin (uU/mL),INS_H,Insulin,Laboratory,None
+LBDINSI,Insulin (pmol/L),INS_H,Insulin,Laboratory,None
+URXUIO,"Iodine, urine (ug/L)",UIO_H,Iodine - Urine,Laboratory,None
+WTSAF2YR,Fasting Subsample 2 Year MEC Weight,ApoB_H,Apolipoprotein B,Laboratory,None
+LBXTR,Triglyceride (mg/dL),TRIGLY_H,Cholesterol - LDL & Triglycerides,Laboratory,None
+LBDTRSI,Triglyceride (mmol/L),TRIGLY_H,Cholesterol - LDL & Triglycerides,Laboratory,None
+LBDLDL,LDL-cholesterol (mg/dL),TRIGLY_H,Cholesterol - LDL & Triglycerides,Laboratory,None
+LBDLDLSI,LDL-cholesterol (mmol/L),TRIGLY_H,Cholesterol - LDL & Triglycerides,Laboratory,None
+LBXIHG,"Inorganic mercury, blood (ug/L)",IHGEM_H,"Mercury: Inorganic, Ethyl and Methyl - Blood",Laboratory,None
+LBDIHGSI,"Mercury, inorganic (umol/L )",IHGEM_H,"Mercury: Inorganic, Ethyl and Methyl - Blood",Laboratory,None
+LBDIHGLC,"Mercury, inorganic comment code",IHGEM_H,"Mercury: Inorganic, Ethyl and Methyl - Blood",Laboratory,None
+LBXBGE,"Mercury, ethyl (ug/L)",IHGEM_H,"Mercury: Inorganic, Ethyl and Methyl - Blood",Laboratory,None
+LBDBGELC,"Mercury, ethyl comment code",IHGEM_H,"Mercury: Inorganic, Ethyl and Methyl - Blood",Laboratory,None
+LBXBGM,"Mercury, methyl (ug/L)",IHGEM_H,"Mercury: Inorganic, Ethyl and Methyl - Blood",Laboratory,None
+LBDBGMLC,"Mercury, methyl comment code",IHGEM_H,"Mercury: Inorganic, Ethyl and Methyl - Blood",Laboratory,None
+WTSOG2YR,OGTT Subsample 2 Year MEC Weight,OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+LBXGLT,Two Hour Glucose(OGTT) (mg/dL),OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+LBDGLTSI,Two Hour Glucose(OGTT) (mmol/L),OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+GTDSCMMN,Glucose challenge Administer Time in minutes,OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+GTDDR1MN,Time from fast glucose & challenge(min),OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+GTDBL2MN,Time from fasting glucose & OGTT (min),OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+GTDDR2MN,Time from glucose challenge & OGTT(min),OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+GTXDRANK,Amount of glucose challenge drank,OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+PHAFSTHR,"Total length of 'food fast', hours",OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+PHAFSTMN,"Total length of 'food fast', minutes",OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+GTDCODE,Incomplete OGTT Comment Code,OGTT_H,Oral Glucose Tolerance Test,Laboratory,None
+URXP01,1-Hydroxynaphthalene (ng/L),PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URDP01LC,1-Hydroxynaphthalene Comment Code,PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URXP02,2-Hydroxynaphthalene (ng/L),PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URDP02LC,2-Hydroxynaphthalene Comment Code,PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URXP03,3-Hydroxyfluorene (ng/L),PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URDP03LC,3-Hydroxyfluorene Comment Code,PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URXP04,2-Hydroxyfluorene (ng/L),PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URDP04LC,2-Hydroxyfluorene Comment Code,PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URXP06,1-Hydroxyphenanthrene (ng/L),PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URDP06LC,1-Hydroxyphenanthrene Comment Code,PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URXP10,1-Hydroxypyrene (ng/L),PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URDP10LC,1-Hydroxypyrene Comment Code,PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URXP25,2-Hydroxyphenanthrene (ng/L) & 3-Hydroxyphenanthrene (ng/L),PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+URDP25LC,2-Hydroxyphenanthrene (ng/L) & 3-Hydroxyphenanthrene Comment Code,PAH_H,Polycyclic Aromatic Hydrocarbons (PAH) - Urine,Laboratory,None
+WTSA2YR,Subsample A weights,CUSEZN_H,"Copper, Selenium & Zinc - Serum",Laboratory,None
+URXUP8,Urinary perchlorate (ng/mL),PERNT_H,"Perchlorate, Nitrate & Thiocyanate - Urine",Laboratory,None
+URDUP8LC,Urinary Perchlorate comment code,PERNT_H,"Perchlorate, Nitrate & Thiocyanate - Urine",Laboratory,None
+URXNO3,Urinary nitrate (ng/mL),PERNT_H,"Perchlorate, Nitrate & Thiocyanate - Urine",Laboratory,None
+URDNO3LC,Urinary nitrate comment code,PERNT_H,"Perchlorate, Nitrate & Thiocyanate - Urine",Laboratory,None
+URXSCN,Urinary thiocyanate (ng/mL),PERNTS_H,"Perchlorate, Nitrate & Thiocyanate - Urine - Special Sample",Laboratory,None
+URDSCNLC,Urinary thiocyanate comment code,PERNT_H,"Perchlorate, Nitrate & Thiocyanate - Urine",Laboratory,None
+LBXPFDE,Pefluorodecanoic acid (ug/L),PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBDPFDEL,Pefluorodecanoic acid comment code,PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBXPFHS,Perfluorohexane sulfonic acid (ug/L),PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBXMPAH,2-(N-Methyl-perfluorooctane sulfonamido) acetic acid (ug/L),PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBDMPAHL,2-(N-Methyl-perfluorooctane sulfonamido) acetic acid comment code,PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBXPFBS,Perfluorobutane sulfonic acid (ug/L),PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBDPFBSL,Perfluorobutane sulfonic acid comment code,PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBXPFHP,Perfluoroheptanoic acid (ug/L),PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBDPFHPL,Perfluoroheptanoic acid comment code,PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBXPFNA,Perfluorononanoic acid (ug/L),PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBDPFNAL,Perfluorononanoic acid comment code,PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBXPFUA,Perfluoroundecanoic acid (ug/L),PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBDPFUAL,Perfluoroundecanoic acid comment code,PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBXPFDO,Perflurododecanoic acid (ug/L),PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+LBDPFDOL,Perflurododecanoic acid comment code,PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+WTSB2YR,Subsample B weights,PFAS_H,Perfluoroalkyl and Polyfluoroalkyl Substances (formerly Polyfluoroalkyl Chemicals - PFC),Laboratory,None
+URXCNP,Mono(carboxynonyl) Phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDCNPLC,Mono(carboxynonyl) phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXCOP,Mono(carboxyoctyl) Phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDCOPLC,Mono(carboxyoctyl) phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXECP,Mono-2-ethyl-5-carboxypentyl phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDECPLC,Mono-2-ethyl-5-carboxypentyl phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMBP,Mono-n-butyl phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMBPLC,Mono-n-butyl phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMC1,Mono-(3-carboxypropyl) phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMC1LC,Mono-(3-carboxypropyl) phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMEP,Mono-ethyl phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMEPLC,Mono-ethyl phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMHH,Mono-(2-ethyl-5-hydroxyhexyl) phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMHHLC,Mono-(2-ethyl-5-hydroxyhexyl) phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMHNC,"Cyclohexane 1,2-dicarboxylic acid monohydroxy isononyl ester (ng/mL)",PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMCHLC,"Cyclohexane 1,2-dicarboxylic acid monohydroxy isononyl ester comment code",PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMHP,Mono-(2-ethyl)-hexyl phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMHPLC,Mono-(2-ethyl)-hexyl phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMIB,Mono-isobutyl phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMIBLC,Mono-isobutyl phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMNP,Mono-isononyl phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMNPLC,Mono-isononyl phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMOH,Mono-(2-ethyl-5-oxohexyl) phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMOHLC,Mono-(2-ethyl-5-oxohexyl) phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URXMZP,Mono-benzyl phthalate (ng/mL),PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+URDMZPLC,Mono-benzyl phthalate comment code,PHTHTE_H,Phthalates and Plasticizers Metabolites - Urine,Laboratory,None
+LBXTC,Total Cholesterol( mg/dL),TCHOL_H,Cholesterol - Total,Laboratory,None
+LBDTCSI,Total Cholesterol( mmol/L),TCHOL_H,Cholesterol - Total,Laboratory,None
+LBXTTG,Tissue transglutaminase(IgA-TTG),TGEMA_H,Tissue Transglutaminase Assay (IgA-TTG) & IgA Endomyseal Antibody Assay (IgA EMA),Laboratory,None
+LBXEMA,Endomyseal antibody (IgA EMA),TGEMA_H,Tissue Transglutaminase Assay (IgA-TTG) & IgA Endomyseal Antibody Assay (IgA EMA),Laboratory,None
+LBXBPB,Blood lead (ug/dL),PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDBPBSI,Blood lead (umol/L),PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDBPBLC,Blood lead comment code,PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBXBCD,Blood cadmium (ug/L),PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDBCDSI,Blood cadmium (umol/L),PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDBCDLC,Blood cadmium comment code,PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBXTHG,"Blood mercury, total (ug/L)",PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDTHGSI,"Blood mercury, total (umol/L)",PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDTHGLC,"Blood mercury, total comment code",PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBXBSE,Blood selenium(ug/L),PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDBSESI,Blood selenium (umol/L),PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDBSELC,Blood selenium comment code,PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBXBMN,Blood manganese (ug/L),PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDBMNSI,Blood manganese (umol/L),PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+LBDBMNLC,Blood manganese comment code,PBCD_H,"Lead, Cadmium, Total Mercury, Selenium, and Manganese - Blood",Laboratory,None
+URXUTRI,"Trichomonas, urine",TRICH_H,Trichomonas - Urine,Laboratory,None
+URXUAS3,Urinary Arsenous acid (ug/L),UAS_H,Arsenics - Speciated - Urine,Laboratory,None
+URDUA3LC,Urinary Arsenous acid comment code,UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URXUAS5,Urinary Arsenic acid (ug/L),UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URDUA5LC,Urinary Arsenic acid comment code,UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URXUAB,Urinary Arsenobetaine (ug/L),UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URDUABLC,Urinary Arsenobetaine comment code,UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URXUAC,Urinary Arsenocholine (ug/L),UAS_H,Arsenics - Speciated - Urine,Laboratory,None
+URDUACLC,Urinary Arsenocholine comment code,UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URXUDMA,Urinary Dimethylarsinic acid (ug/L),UAS_H,Arsenics - Speciated - Urine,Laboratory,None
+URDUDALC,Urinary Dimethylarsinic acid comment code,UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URXUMMA,Urinary Monomethylacrsonic acid (ug/L),UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URDUMMAL,Urinary Monomethylacrsonic acid comment code,UASS_H,Arsenics - Speciated - Urine - Special Sample,Laboratory,None
+URXVOL1,The volume of urine collection #1 (mL),UCFLOW_H,Urine Flow Rate,Laboratory,None
+URDFLOW1,Urine #1 Flow Rate (mL/min),UCFLOW_H,Urine Flow Rate,Laboratory,None
+URXVOL2,The volume of urine collection #2 (mL),UCFLOW_H,Urine Flow Rate,Laboratory,None
+URDFLOW2,Urine #2 Flow Rate (mL/min),UCFLOW_H,Urine Flow Rate,Laboratory,None
+URXVOL3,The volume of urine collection #3 (mL),UCFLOW_H,Urine Flow Rate,Laboratory,None
+URDFLOW3,Urine #3 Flow Rate (mL/min),UCFLOW_H,Urine Flow Rate,Laboratory,None
+URXUHG,"Mercury, urine (ug/L)",UHG_H,Mercury - Urine,Laboratory,None
+URDUHGLC,"Mercury, urine comment code",UHG_H,Mercury - Urine,Laboratory,None
+URXUBA,"Barium, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUBALC,Urinary Barium comment code,UM_H,Metals - Urine,Laboratory,None
+URXUCD,"Cadmium, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUCDLC,Urinary Cadmium comment code,UM_H,Metals - Urine,Laboratory,None
+URXUCO,"Cobalt, urine (ug/L)",UMS_H,Metals - Urine - Special Sample,Laboratory,None
+URDUCOLC,Urinary Cobalt (ug/L) comment code,UM_H,Metals - Urine,Laboratory,None
+URXUCS,"Cesium, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUCSLC,Urinary Cesium comment code,UM_H,Metals - Urine,Laboratory,None
+URXUMO,"Molybdenum, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUSBLC,Urinary Antimony comment code,UM_H,Metals - Urine,Laboratory,None
+URXUSN,"Tin, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUSNLC,Tin comment code,UM_H,Metals - Urine,Laboratory,None
+URXUSR,"Strontium, urine (ug/L)",UMS_H,Metals - Urine - Special Sample,Laboratory,None
+URDUSRLC,Strontium comment code,UM_H,Metals - Urine,Laboratory,None
+URXUTL,"Thallium, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUTLLC,Urinary Thallium comment code,UM_H,Metals - Urine,Laboratory,None
+URDUMOLC,Urinary Molybdenum comment code,UM_H,Metals - Urine,Laboratory,None
+URXUMN,"Manganese, urine (ug/L)",UMS_H,Metals - Urine - Special Sample,Laboratory,None
+URDUMNLC,Urinary Mn comment code,UM_H,Metals - Urine,Laboratory,None
+URXUPB,"Lead, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUPBLC,Urinary Lead comment code,UM_H,Metals - Urine,Laboratory,None
+URXUSB,"Antimony, urine (ug/L)",UMS_H,Metals - Urine - Special Sample,Laboratory,None
+URXUSB,"Antimony, urine (ug/L)",UMS_H,Metals - Urine - Special Sample,Laboratory,None
+URDUSBLC,Urinary Antimony comment code,UM_H,Metals - Urine,Laboratory,None
+URXUSN,"Tin, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUSNLC,Tin comment code,UM_H,Metals - Urine,Laboratory,None
+URXUSR,"Strontium, urine (ug/L)",UMS_H,Metals - Urine - Special Sample,Laboratory,None
+URDUSRLC,Strontium comment code,UM_H,Metals - Urine,Laboratory,None
+URXUTL,"Thallium, urine (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUTLLC,Urinary Thallium comment code,UM_H,Metals - Urine,Laboratory,None
+URXUTU,"Tungsten, urine (ug/L)",UMS_H,Metals - Urine - Special Sample,Laboratory,None
+URDUTULC,Urinary Tungsten comment code,UM_H,Metals - Urine,Laboratory,None
+URXUUR,"Uranium, urinary (ug/L)",UM_H,Metals - Urine,Laboratory,None
+URDUURLC,Urinary Uranium comment code,UM_H,Metals - Urine,Laboratory,None
+URXPREG,Pregnancy test result,UCPREG_H,Pregnancy Test - Urine,Laboratory,None
+URXUAS,"Urinary arsenic, total (ug/L)",UTAS_H,Arsenic - Total - Urine,Laboratory,None
+LBDB12,Vitamin B12(pg/mL),VITB12_H,Vitamin B12,Laboratory,None
+LBDB12SI,Vitamin B12 (pmol/L),VITB12_H,Vitamin B12,Laboratory,None
